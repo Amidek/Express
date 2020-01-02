@@ -2,3 +2,17 @@ h1 {
     font-weight: lighter;
     font-style: italic;
 }
+
+.dark {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    background-color: black;
+}
+.dark nav{
+    text-align: right;
+}
+.dark nav a {
+    text-decoration: none;
+    color: white;
+}
