@@ -1,5 +1,5 @@
 <h2>Contact me</h2>
-<form action="/contact/send-message" method="POST" enctype="multipart/form-data" >
+<form action="/contact/send-message" method="POST" >
   <label>
     Your name: <input type="text" name="author">
   </label>
@@ -20,7 +20,7 @@
     {{#if isSent }}
     <div class = 'isSent'>
       The message has been sent!<br>
-      File has been sent!
+      File $_GET[image] has been sent!
     </div>
     {{/if}}
 
